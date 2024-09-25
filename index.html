@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+    <link rel="shortcut icon" type="imagex/png" href="img/hello.png">
+</head>
+<body>
+   
+    <h1>Calculadora da Hello Kitty</h1>
+   
+    <img src="img/hello_kitty_pfp-removebg-preview.png" alt="hello kitty fazendo joinha">
+    <br><br>
+   
+    <input type="number" id="numero" required placeholder="Número">
+    <br><br>
+    <input type="number" id="Nu" required placeholder="Número">
+    <br><br>
+   
+    <select id="calculo" required>
+        <option value="">Operação</option>
+        <option value="soma">+</option>
+        <option value="subtracao">-</option>
+        <option value="multiplicacao">*</option>
+        <option value="divisao">/</option>
+    </select>
+    <br><br>
+   
+    <button onclick="cal()">Calcular</button>
+    <button onclick="lim()">Limpar</button>
+    <p id="resultado"></p>
+
+</body>
+</html>
